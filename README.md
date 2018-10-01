@@ -13,10 +13,14 @@ http://www.ubms.kr
  -------------------------------nginx setting ----------------------------------------
 
 
-server
-{
+server{
+
+
+        
         server_name www.domein.xxx;
+        
         root /home/user/mvc_rest_ubms_framework/document_root; 
+        
         index index.php index.html;
 
         location / {
