@@ -1,30 +1,12 @@
 ubms_framework 1.0.0
-사용자는 반드시 
-출처 표기 할것 
 
-ubms.kr
-ubmermensch.kr
-ubermensch.co.kr
+GNU General Public License(GPL) 2.0
 
 
+http://www.ubms.kr
 
-.htaccess file place in document_root folde
--------------------------------apache2 -  place in document_root folder -----------------------------------------
 
-RewriteEngine On
 
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_URI} !^.*\.(images|swf|uploads|js|css|jpg|png|gif|robots\.txt)$ [NC]
-RewriteRule ^(.*)$ index.php/$1
- 
- 
- 
- ---------------------------------------------------------------------------------
- 
- 
- 
- 
- 
  
  
  
